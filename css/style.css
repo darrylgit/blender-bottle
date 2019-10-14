@@ -1,0 +1,411 @@
+/*
+===============================
+NAVBAR
+===============================
+*/
+
+.navbar .nav-link {
+  font-size: 1.4rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.6rem;
+}
+
+/*
+===============================
+SHOWCASE
+===============================
+*/
+
+#showcase {
+  background-image: linear-gradient(#343a40, #73808c);
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-item img {
+  height: 450px;
+}
+
+/* Text outline */
+.carousel-caption h2,
+.carousel-caption p {
+  text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333,
+    -1px -1px 0 #333, 0px 1px 0 #333, 0px -1px 0 #333, -1px 0px 0 #333,
+    1px 0px 0 #333, 2px 2px 0 #333, -2px 2px 0 #333, 2px -2px 0 #333,
+    -2px -2px 0 #333, 0px 2px 0 #333, 0px -2px 0 #333, -2px 0px 0 #333,
+    2px 0px 0 #333, 1px 2px 0 #333, -1px 2px 0 #333, 1px -2px 0 #333,
+    -1px -2px 0 #333, 2px 1px 0 #333, -2px 1px 0 #333, 2px -1px 0 #333,
+    -2px -1px 0 #333;
+
+  -moz-text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333,
+    -1px -1px 0 #333, 0px 1px 0 #333, 0px -1px 0 #333, -1px 0px 0 #333,
+    1px 0px 0 #333, 2px 2px 0 #333, -2px 2px 0 #333, 2px -2px 0 #333,
+    -2px -2px 0 #333, 0px 2px 0 #333, 0px -2px 0 #333, -2px 0px 0 #333,
+    2px 0px 0 #333, 1px 2px 0 #333, -1px 2px 0 #333, 1px -2px 0 #333,
+    -1px -2px 0 #333, 2px 1px 0 #333, -2px 1px 0 #333, 2px -1px 0 #333,
+    -2px -1px 0 #333;
+
+  -webkit-text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333,
+    -1px -1px 0 #333, 0px 1px 0 #333, 0px -1px 0 #333, -1px 0px 0 #333,
+    1px 0px 0 #333, 2px 2px 0 #333, -2px 2px 0 #333, 2px -2px 0 #333,
+    -2px -2px 0 #333, 0px 2px 0 #333, 0px -2px 0 #333, -2px 0px 0 #333,
+    2px 0px 0 #333, 1px 2px 0 #333, -1px 2px 0 #333, 1px -2px 0 #333,
+    -1px -2px 0 #333, 2px 1px 0 #333, -2px 1px 0 #333, 2px -1px 0 #333,
+    -2px -1px 0 #333;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+}
+
+.image-right {
+  float: right;
+}
+
+#teaser {
+  position: relative;
+  min-height: 300px;
+  background: url("../img/radian.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*
+===============================
+LINK CARDS - HOMEPAGE
+===============================
+*/
+
+.card {
+  overflow: hidden;
+}
+
+#links .card {
+  height: 500px;
+  border: 3px solid #343a40;
+  border-radius: 15px;
+}
+
+#links .card-body {
+  margin-top: 150px;
+}
+
+#links #storeCard {
+  background: url("../img/montage3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#links #recipeCard {
+  background: url("../img/smoothie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#links a:hover {
+  -webkit-animation-name: outline-hover;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: outline-hover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.alt-header {
+  position: relative;
+  min-height: 300px;
+  background: url("../img/header.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  text-align: center;
+  color: #fff;
+}
+
+#recipesGrid .card-footer,
+#shopGrid .card-footer a {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#recipesGrid .card-footer:hover,
+#shopGrid .card-footer a:hover {
+  color: red;
+}
+
+#recipesGrid a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+/*
+===============================
+ANIMATIONS
+===============================
+*/
+@-webkit-keyframes outline-hover {
+  from {
+    color: rgba(248, 249, 250);
+  }
+  to {
+    color: rgba(66, 70, 80);
+  }
+}
+
+@keyframes outline-hover {
+  from {
+    color: rgba(248, 249, 250);
+  }
+  to {
+    color: rgb(66, 70, 80);
+  }
+}
+
+/*
+===============================
+MEDIA QUERIES
+===============================
+*/
+
+/* Carousel media queries */
+@media (max-width: 479px) {
+  .carousel-inner h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  #collegiate {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Media queries: medium screens */
+@media (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  #recipe1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe2 {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe3 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe4 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe5 {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe6 {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe7 {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe8 {
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe9 {
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe10 {
+    grid-row: 5 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe11 {
+    grid-row: 6 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe12 {
+    grid-row: 6 / span 1;
+    grid-column: 2 / span 1;
+  }
+}
+
+/* Media queries: large screens */
+@media (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  #recipe1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe2 {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe3 {
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe4 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe5 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe6 {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe7 {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe8 {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe9 {
+    grid-row: 3 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe10 {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe11 {
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe12 {
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 1;
+  }
+}
+
+/* Media queries: very large screens */
+@media (min-width: 3000px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  #recipe1 {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe2 {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe3 {
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe4 {
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 1;
+  }
+
+  #recipe5 {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe6 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe7 {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe8 {
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 1;
+  }
+
+  #recipe9 {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+  }
+
+  #recipe10 {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #recipe11 {
+    grid-row: 3 / span 1;
+    grid-column: 3 / span 1;
+  }
+
+  #recipe12 {
+    grid-row: 3 / span 1;
+    grid-column: 4 / span 1;
+  }
+}
