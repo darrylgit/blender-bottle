@@ -8,6 +8,7 @@ This landing page was created to practice using Bootstrap and complete an assign
 
 - Twitter Bootstrap
 - Sass / CSS
+- jQuery / Javascript
 
 ## LICENSE
 
